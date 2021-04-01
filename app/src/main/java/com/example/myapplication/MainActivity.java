@@ -3,6 +3,7 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -35,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
         htkq.setText("10+10=22");
         //toast
-        Toast.makeText(this,"thong bao ",Toast.LENGTH_LONG).show();
+        //Toast.makeText(this,"thong bao ",Toast.LENGTH_LONG).show();
+
+        Log.d(TAG, "onCreate: ");
     }
 }

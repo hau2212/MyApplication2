@@ -38,6 +38,6 @@ public class MainActivity extends AppCompatActivity {
         //toast
         //Toast.makeText(this,"thong bao ",Toast.LENGTH_LONG).show();
 
-        Log.d(TAG, "onCreate: ");
+        Log.d("KKK",htkq.getText().toString());
     }
 }
